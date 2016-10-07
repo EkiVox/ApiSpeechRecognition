@@ -24,9 +24,9 @@ Le but est d'être __modifiable a souhait__! cette version est la version Api po
 
     import lsr
     phrase = lsr.recognition.listening
-print("selon moi tu as dit " + phrase + "!")
-lsr.recognition.match(phrase, "config.yml", "fr")
+    print("selon moi tu as dit " + phrase + "!")
+    lsr.recognition.match(phrase, "config.yml", "fr")
 
 ##Erreurs possibles:
-###Failed loading libsmpeg-0.4.so.0:
-    solution: sudo apt-get install libsmep-dev
+    ###Failed loading libsmpeg-0.4.so.0:
+        solution: sudo apt-get install libsmep-dev
