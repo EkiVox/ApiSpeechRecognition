@@ -28,5 +28,5 @@ Le but est d'être __modifiable a souhait__! cette version est la version Api po
     lsr.recognition.match(phrase, "config.yml", "fr")
 
 ##Erreurs possibles:
-    ###Failed loading libsmpeg-0.4.so.0:
+    Failed loading libsmpeg-0.4.so.0:
         solution: sudo apt-get install libsmep-dev
